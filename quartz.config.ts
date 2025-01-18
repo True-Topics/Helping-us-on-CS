@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://quantity890.github.io/Helping-us-on-CS/",
+    baseUrl: "https://true-topics.github.io/Helping-us-on-CS/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
