@@ -107,12 +107,6 @@ A **Hidden Markov Model (HMM)** is a statistical model used to describe systems 
 > [!example]
 > In speech recognition, the hidden states might represent phonemes, while the observable outputs are the sound wave features.
 
-1. **Components of an HMM**:
-    - **States** (S={s1,s2,...,sN}S = \{s_1, s_2, ..., s_N\}): A finite set of hidden states.
-    - **Observations** (O={o1,o2,...,oT}O = \{o_1, o_2, ..., o_T\}): A sequence of observed outputs over time.
-    - **Transition Probabilities** (AA): A matrix where AijA_{ij} represents the probability of transitioning from state sis_i to state sjs_j.
-    - **Emission Probabilities** (BB): A probability distribution that defines the likelihood of observing an output given a state (Bi(ot)B_{i}(o_t)).
-    - **Initial Probabilities** (π\pi): A distribution that specifies the probability of starting in each state.
 #### Key Problems HMM Addresses
 HMMs address three fundamental problems:
 1. **Likelihood (Evaluation)**:
