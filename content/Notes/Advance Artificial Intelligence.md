@@ -57,15 +57,13 @@ For example, if you wanted to predict how much a bank’s customer will use a sp
 
 If you inputted that same dataset into a **Random Forest**, the algorithm would build multiple trees out of randomly selected customer visits and service usage. Then it would output the average results of each of those trees.
 #### How are the trees in a Random Forest trained (Bagging Explained)?
-Decision trees in an ensemble, like the trees within a Random Forest, are usually trained using the “bagging” method.
+Decision trees in an ensemble, like the trees within a Random Forest, are usually trained using the “**bagging**” method. The “**bagging**” method is a type of ensemble machine learning algorithm called Bootstrap Aggregation. An ensemble method combines predictions from multiple machine learning algorithms together to make more accurate predictions than an individual model. Random Forest is also an ensemble method.
 
-The “bagging” method is a type of ensemble machine learning algorithm called Bootstrap Aggregation. An ensemble method combines predictions from multiple machine learning algorithms together to make more accurate predictions than an individual model. Random Forest is also an ensemble method.
+ - **Bootstrap** randomly performs row sampling and feature sampling from the dataset to form sample datasets for every model.
 
-**Bootstrap** randomly performs row sampling and feature sampling from the dataset to form sample datasets for every model.
+- **Aggregation** reduces these sample datasets into summary statistics based on the observation and combines them. Bootstrap Aggregation can be used to reduce the variance of high variance algorithms such as decision trees.
 
-**Aggregation** reduces these sample datasets into summary statistics based on the observation and combines them. Bootstrap Aggregation can be used to reduce the variance of high variance algorithms such as decision trees.
-
-**Variance** is an error resulting from sensitivity to small fluctuations in the dataset used for training. High variance will cause an algorithm to model irrelevant data, or noise, in the dataset instead of the intended outputs, called signal. This problem is called **overfitting**. An overfitted model will perform well in training, but won’t be able to distinguish the noise from the signal in an actual test.
+- **Variance** is an error resulting from sensitivity to small fluctuations in the dataset used for training. High variance will cause an algorithm to model irrelevant data, or noise, in the dataset instead of the intended outputs, called signal. This problem is called **overfitting**. An overfitted model will perform well in training, but won’t be able to distinguish the noise from the signal in an actual test.
 
 **Bagging** is the application of the bootstrap method to a high variance machine learning algorithm.
 
@@ -82,3 +80,9 @@ Scientists in China used Random Forest to study the spontaneous combustion patte
 
 In **healthcare,** Random Forest can be used to analyze a patient’s medical history to identify diseases. Pharmaceutical scientists use Random Forest to identify the correct combination of components in a medication or predict drug sensitivity. Sometimes Random Forest is even used for computational biology and the study of genetics.
 ### Explain Hidden Markov Models.
+
+### Explain Conditional GAN in detail.
+
+### Limitations on 2D Learning Environments.
+
+### Evolution of Virtual Worlds
