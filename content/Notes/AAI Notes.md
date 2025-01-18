@@ -1,11 +1,11 @@
 ### Website to [Make Mind Map](https://www.mymap.ai/)
 
 ### Why use Pretrained Models?
-[Source]((https://www.ahead.com/resources/why-pre-trained-models-matter-for-machine-learning/)
+[Source](https://www.ahead.com/resources/why-pre-trained-models-matter-for-machine-learning/)
 Pretrained models are already trained models which have grasped the patterns and representations from the data. Model training require a good performance hardware. If everyone is training a model from the scratch then there is just waste of time and recourses if there is other pretrained model available which is better than we trained. Why go and unnecessary train a model if there is better version available trained from the same data? Pretrained models provide ML engineers a good headstart for their project development. If a pretrained model is good and want to fine tune according to specific requirements you can use transfer learning and modify the model according to your requirements. Also if there is anyone out there having very low knowledge to train AI models. They can use a pretrained model. This provides benefits to Non Experts. They have a generalized architecture that is ready to integrate into applications. Developers do not need to spend time designing complex neural networks from scratch, which streamlines the development process. They offer better accuracy and performance as they have learned meaningful Features from large amounts of data.
 
 ### What is Random Forest Algorithm?
-[Source]((https://careerfoundry.com/en/blog/data-analytics/what-is-random-forest/)
+[Source](https://careerfoundry.com/en/blog/data-analytics/what-is-random-forest/)
 Random Forest is a  **supervised machine learning algorithm** that grows and combines multiple decision trees to create a “forest.” It can be used for both classification and regression problems.
 #### What is Supervised Learning?
 Supervised machine learning is when the algorithm (or model) is created using labelled data. Where each input and its respective Output is Provided to train.
