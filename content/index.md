@@ -1,8 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to Helping us on Computer Science 
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
-Hello this is a Test Content
+In the Notes folder you will find all the Related to the Subject.
