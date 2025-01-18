@@ -81,3 +81,4 @@ Random Forest is used in **banking** to detect customers who are more likely t
 Scientists in China used Random Forest to study the spontaneous combustion patterns of coal to reduce safety risks in **coal mines**!
 
 In **healthcare,** Random Forest can be used to analyze a patient’s medical history to identify diseases. Pharmaceutical scientists use Random Forest to identify the correct combination of components in a medication or predict drug sensitivity. Sometimes Random Forest is even used for computational biology and the study of genetics.
+### Explain Hidden Markov Models.
