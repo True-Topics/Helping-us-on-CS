@@ -1,5 +1,6 @@
 # 1. Generative and Probabilistic Models
 <span style="float: right;">08</span>
+## [[Differentiate between Generative Adversarial Network and Variational Auto Encoders.]]
 ## [[Explain Gaussian Mixture Models.]]
 ## [[Explain Hidden Markov Models.]]
 # 2. Generative Adversarial Network
