@@ -8,7 +8,8 @@
 ## [[Explain WGAN in detail.]]
 # 3. Variational Autoencoders
 <span style="float: right;">07</span>
-## [[Explain Variational Auto Encoders in detail.]]
+## [[Explain Sparse autoencoders.]]
+## [[Explain Variational autoencoders in detail.]]
 # 4. Transfer Learning
 <span style="float: right;">05</span>
 ## [[Why use Pretrained Models.|Why use Pretrained Models?]]
