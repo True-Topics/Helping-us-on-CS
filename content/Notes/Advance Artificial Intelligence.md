@@ -263,7 +263,7 @@ While the metaverse has garnered immense hype, much of it has been driven by mar
 
 Despite these challenges, there are exciting advancements, such as Apple's Vision Pro, which introduces AR-powered spatial computing. Other developments, like photogrammetry and 3D modeling, enable creative and practical applications in virtual environments.
 
-### Challenges and Limitations
+#### Challenges and Limitations
 The metaverse faces several obstacles, including:
 - **Hardware Constraints:** VR/AR devices are still bulky, expensive, and inaccessible for many users.
 - **Interoperability Barriers:** Seamlessly transferring assets across platforms requires cooperation among companies, which is often commercially undesirable.
@@ -339,7 +339,7 @@ Limitations:
 - Can be computationally intensive
 - Must specify number of groups upfront
 ## Explain Variational Auto Encoders in detail.
-[Source]([Variational AutoEncoders - GeeksforGeeks](https://www.geeksforgeeks.org/variational-autoencoders/))
+[Source](https://www.geeksforgeeks.org/variational-autoencoders/)
 #### About Autoencoders
 Autoencoders have emerged as an architecture for data representation and generation. Among them, Variational Autoencoders (VAEs) stand out, introducing probabilistic encoding and opening new avenues for diverse applications. In this article, we are going to explore the architecture and foundational concepts of variational autoencoders (VAEs).
 
@@ -358,37 +358,37 @@ The decoder reconstructs data by sampling a point from this distribution and con
 - **Regularization Term (KL Divergence)**: Aligns the latent space with a specified distribution, promoting generalization and preventing overfitting.
 
 This process balances accurate data reconstruction with latent space regularization. Through iterative training, VAEs encode meaningful latent representations that capture the data's underlying features and structures. Their probabilistic latent space also allows for generating novel samples by sampling points from the learned distribution.
-### Frequently Asked Questions (FAQs)
-#### 1. What is the difference between variational and standard autoencoder?
+#### Frequently Asked Questions (FAQs)
+##### 1. What is the difference between variational and standard autoencoder?
 > Variational autoencoders introduce a probabilistic interpretation in the latent space, allowing for the generation of diverse outputs by sampling from learned distributions. This contrasts with standard autoencoders, which use a deterministic mapping in the latent space.
-#### 2. What are the uses of VAEs?
+##### 2. What are the uses of VAEs?
 > VAEs have various applications due to their ability to model complex probability distributions, including image generation, data generation, anomaly detection, data imputation, and more.
-#### 3. What is the difference between PCA and Variational Autoencoder?
+##### 3. What is the difference between PCA and Variational Autoencoder?
 > PCA focuses on finding the principal components to represent existing data in a lower-dimensional space, while VAEs learn a probabilistic mapping that allows for generating new data points.
-#### 4. What is the drawback of VAE?
+##### 4. What is the drawback of VAE?
 > VAEs have a drawback of generating blurry reconstructions and unrealistic outputs.
-#### 5. What is better: GANs or VAE?
+##### 5. What is better: GANs or VAE?
 > For image generation, GANs are a better option as they generate high-quality samples. VAEs are better suited for applications like signal analysis and structured data modeling.
-#### 6. Why do VAEs use a probabilistic latent space?
+##### 6. Why do VAEs use a probabilistic latent space?
 > VAEs use a probabilistic latent space to model the data distribution effectively and allow for generating diverse outputs. By sampling from the latent space, they can produce new data points, enabling tasks like data generation and interpolation.
-#### 7. What is the role of the Kullback-Leibler (KL) divergence in VAEs?
+##### 7. What is the role of the Kullback-Leibler (KL) divergence in VAEs?
 > The KL divergence measures how closely the learned latent distribution approximates the target prior distribution, usually a standard normal distribution. It regularizes the latent space, ensuring smoothness and preventing overfitting by encouraging the model to learn meaningful and generalizable latent representations.
-#### 8. How does a VAE differ from a GAN?
+##### 8. How does a VAE differ from a GAN?
 > VAEs and GANs are both generative models but differ in their approach:
 > VAEs use a probabilistic encoder-decoder architecture, optimizing for reconstruction loss and KL divergence.
 > GANs use a generator-discriminator setup with adversarial loss to directly model the data distribution. GANs are better for high-quality outputs but are harder to train and interpret, while VAEs are more stable and versatile.
-#### 9. Why do VAEs produce blurry images?
+##### 9. Why do VAEs produce blurry images?
 > The probabilistic nature of VAEs focuses on modeling the overall data distribution rather than fine details. This trade-off often results in reconstructions that lack sharpness, as the model prioritizes covering the variance of the data over specific high-frequency details.
-#### 10. Can VAEs handle multimodal data distributions?
+##### 10. Can VAEs handle multimodal data distributions?
 > Yes, VAEs can model multimodal data distributions because the latent space is probabilistic. This allows the model to capture diverse patterns in the data and generate multiple plausible outputs for a given input.
-#### 11. What are some real-world applications of VAEs?
+##### 11. What are some real-world applications of VAEs?
 > **Image synthesis**: Generating new images, e.g., face synthesis.
 > **Drug discovery**: Designing new molecules by exploring latent space.
 > **Music generation**: Creating novel compositions.
 > **Anomaly detection**: Identifying abnormal data in industrial processes or cybersecurity.
-#### 12. How do VAEs enable interpolation in latent space?
+##### 12. How do VAEs enable interpolation in latent space?
 > By operating on a continuous and smooth latent space, VAEs allow for linear interpolation between points. Sampling along a path in the latent space results in a sequence of outputs that blend characteristics of the endpoints, making VAEs effective for creative applications like morphing between two images.
-#### 13. How does the reparameterization trick work in VAEs?
+##### 13. How does the reparameterization trick work in VAEs?
 > The reparameterization trick enables backpropagation through the stochastic sampling process. Instead of directly sampling from the latent distribution, a differentiable transformation is applied to a random variable sampled from a standard normal distribution, allowing gradient updates during training.
 
 ---
