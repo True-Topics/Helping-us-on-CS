@@ -1,10 +1,11 @@
 ---
 title: Welcome to Helping us on Computer Science
 socialDescription: Notes by us to us
+socialImage:
 ---
 Welcome to Helping us on Computer Science. Where learners like you and me collaborate and Share Notes on Different Topics. 
 
-
+---
 Topics Covered are
 ---
 - [[Advance Artificial Intelligence]]

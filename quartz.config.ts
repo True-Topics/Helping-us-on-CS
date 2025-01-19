@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "https://true-topics.github.io/Helping-us-on-CS/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: false,
+    generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
