@@ -14,7 +14,7 @@
 ## [[Explain the advantages and disadvantages of asynchronous updates in dynamic programming.]]
 # 5. Monte Carlo Methods and Temporal Difference Learning
 <span style="float: right;">07</span>
-## [[How does TD prediction differ from Monte Carlo prediction.|How does TD prediction differ from Monte Carlo prediction?]]
+## [[How does Temporal Difference (TD) prediction differ from Monte Carlo prediction.|How does Temporal Difference (TD) prediction differ from Monte Carlo prediction?]]
 ## [[Explain with an example scenario where Monte Carlo control might be applied.]]
 ## [[Describe the Q-learning algorithm for TD control.]]
 ## [[What are the advantages and disadvantages of action-value methods compared to other reinforcement learning techniques.|What are the advantages and disadvantages of action-value methods compared to other reinforcement learning techniques?]]
