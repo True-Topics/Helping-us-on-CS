@@ -1,5 +1,3 @@
-## What is metaverse? Explain the characteristics and components of the metaverse.
-
 The metaverse is an advanced, immersive virtual universe that blends physical and digital realities. It represents a broad shift in how we interact with technology rather than a single, well-defined platform. Persistent in nature, the metaverse continues to evolve and exist even when users are not present, much like a city that operates 24/7. Its synchronicity allows users to experience events in real time, enabling shared activities such as live concerts, collaborative meetings, or gaming.
 
 The metaverse emphasizes **interoperability**, though this remains an aspirational goal. Ideally, it would allow digital assets—such as virtual clothing, currencies, and avatars—to move seamlessly across platforms. However, this is a technically complex task, with current implementations falling short. For example, technologies like NFTs have been touted as tools for enabling such portability, but their functionality remains limited, and they often face skepticism regarding their security and practicality.

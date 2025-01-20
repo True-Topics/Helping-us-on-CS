@@ -1,4 +1,3 @@
-## How do AI and AR work together, and what are their practical applications?
 #### Artificial Intelligence and Augmented Reality
 Artificial Intelligence (AI) and Augmented Reality (AR) are two of the most hyped technologies, sharing popularity in sci-fi and decades of research. AI boasts millions of citations on Google Scholar, while AR has over 400,000. Both have achieved successes but face significant challenges. AI’s bottleneck has been processing power, but advancements in GPUs and deep learning have led to promising applications, including data analysis and AI art. While Artificial General Intelligence remains elusive, narrow AI is advancing steadily.
 

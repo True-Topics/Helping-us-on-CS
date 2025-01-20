@@ -1,4 +1,4 @@
-## Explain Conditional GAN in detail.
+
 A **Conditional GAN (cGAN)** is an extension of a Generative Adversarial Network (GAN) that allows you to generate data based on a given condition.
 #### How Does a cGAN Work?
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20231117113724/Conditional-GANs.png)

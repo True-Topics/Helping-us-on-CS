@@ -1,4 +1,3 @@
-## What is Random Forest Algorithm?
 [Source](https://careerfoundry.com/en/blog/data-analytics/what-is-random-forest/)
 Random Forest is a  **supervised machine learning algorithm** that grows and combines multiple decision trees to create a “forest.” It can be used for both classification and regression problems.
 #### What is Supervised Learning?

@@ -1,4 +1,3 @@
-## Explain transfer learning. Describe different types of transfer learning.
 [Source](https://www.techtarget.com/searchcio/definition/transfer-learning)
 Transfer learning is a machine learning technique where an already developed ML model is reused in another task. Typically, training a model takes a large amount of compute resources, data and time. Using a pretrained model as a starting point helps cut down on all three, as developers don't have to start from scratch, training a large model on what would be an even bigger data set. This approach is particularly beneficial when there is limited data available for the new task, as it enables the model to start with a foundation of learned features rather than beginning the training process from scratch. By reusing existing models, transfer learning can enhance efficiency, reduce training time, and improve accuracy across various applications, including natural language processing and image recognition.
 

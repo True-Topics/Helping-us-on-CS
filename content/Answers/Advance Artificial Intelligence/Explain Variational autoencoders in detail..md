@@ -1,4 +1,3 @@
-## Explain Variational autoencoders in detail.
 [Source](https://www.geeksforgeeks.org/variational-autoencoders/)
 #### About Autoencoders
 Autoencoders have emerged as an architecture for data representation and generation. Among them, Variational Autoencoders (VAEs) stand out, introducing probabilistic encoding and opening new avenues for diverse applications. In this article, we are going to explore the architecture and foundational concepts of variational autoencoders (VAEs).

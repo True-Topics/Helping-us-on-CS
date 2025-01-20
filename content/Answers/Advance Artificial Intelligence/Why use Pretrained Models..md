@@ -1,4 +1,3 @@
-## Why use Pretrained Models?
 [Source](https://www.ahead.com/resources/why-pre-trained-models-matter-for-machine-learning/)
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/0*7Rwf7wA9Xu2pg46R)
 Pretrained models are models that have already been trained on extensive datasets, allowing them to learn patterns and representations effectively. Training a model from scratch requires high-performance hardware and significant time and resources. If a superior pretrained model is available, replicating the training process becomes unnecessary and inefficient.

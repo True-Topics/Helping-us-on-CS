@@ -1,4 +1,4 @@
-## Explain Hidden Markov Models.
+
 A **Hidden Markov Model (HMM)** is a statistical model used to describe systems that are governed by a Markov process with hidden (unobservable) states. It is extensively used in fields like speech recognition, bioinformatics, and financial modeling due to its ability to handle time series data and model sequential patterns.
 #### Core Concepts of HMM
 1. **Markov Process**:

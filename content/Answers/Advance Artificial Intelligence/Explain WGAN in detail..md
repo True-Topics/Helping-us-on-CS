@@ -1,4 +1,3 @@
-## Explain WGAN in detail.
 Wasserstein Generative Adversarial Networks (WGANs) are an advancement over traditional Generative Adversarial Networks (GANs), introduced to address common issues such as training instability and mode collapse. 
 
 **Traditional GANs** operate with two neural networks: a generator that creates data samples and a discriminator that evaluates their authenticity. The training aims to minimize the Jensen-Shannon (JS) divergence between the real and generated data distributions. However, this approach can lead to vanishing gradients, making the training process unstable and sometimes causing the generator to produce limited varieties of samples—a problem known as mode collapse.
