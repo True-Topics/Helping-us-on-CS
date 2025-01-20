@@ -12,6 +12,6 @@ If you are using a value-based method (as opposed to a policy-based one), then T
 
 In terms of "practical advantage" for MC? Monte Carlo learning is conceptually simple, robust and easy to implement, albeit often slower than TD. I would generally not use it for a learning controller engine (unless in a hurry to implement something for a simple environment), but I would seriously consider it for policy evaluation in order to compare multiple agents for instance - that is due to it being an unbiased measure, which is important for testing.
 #### Sources
-- [Temporal Difference Learning - IIT Madras](https://www.youtube.com/watch?v=Udzp_KDLYUo
+- [Temporal Difference Learning - IIT Madras](https://www.youtube.com/watch?v=Udzp_KDLYUo)
 - [Reinforcement learning - When are Monte Carlo methods preferred over temporal difference ones? - Cross Validated](https://stats.stackexchange.com/questions/336974/when-are-monte-carlo-methods-preferred-over-temporal-difference-ones)
 - [Temporal Difference Learning in Reinforcement Learning | by Shivam Mohan | Medium](https://medium.com/nerd-for-tech/temporal-difference-learning-in-reinforcement-learning-cf13ed159fcb)
