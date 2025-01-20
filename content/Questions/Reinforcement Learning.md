@@ -4,7 +4,7 @@
 ## [[Explain the exploration-exploitation trade-off and its significance in reinforcement learning.]]
 # 2. Bandit Problems and Online Learning
 <span style="float: right;">07</span>
-
+## [[Explain k armed bandit Problem in reinforcement learning.]]
 # 3. Markov Decision Process
 <span style="float: right;">07</span>
 ## [[Describe the components of an MDP, including states, actions, transition probabilities, and rewards.]]
