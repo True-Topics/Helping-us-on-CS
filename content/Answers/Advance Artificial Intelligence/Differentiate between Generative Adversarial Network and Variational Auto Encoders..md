@@ -11,6 +11,6 @@
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*-RzfIqJkWjqwKolZOdhOiw.png)
 ![](https://miro.medium.com/v2/resize:fit:700/1*tBQlXBSkVtIJSAPMS2ARmw.png)
-##### Sources
-[GAN vs VAE: Differences, Similarities, Examples - Analytics Yogi](https://vitalflux.com/gan-vs-vae-differences-similarities-examples/)
-[VAE v/s GAN — A case study. Deep learning is a field that focuses… | by Aleema Parakatta | Medium](https://medium.com/@parakatta/vae-v-s-gan-a-case-study-b09c7169ac02)
+#### Sources
+- [GAN vs VAE: Differences, Similarities, Examples - Analytics Yogi](https://vitalflux.com/gan-vs-vae-differences-similarities-examples/)
+- [VAE v/s GAN — A case study. Deep learning is a field that focuses… | by Aleema Parakatta | Medium](https://medium.com/@parakatta/vae-v-s-gan-a-case-study-b09c7169ac02)

@@ -1,5 +1,5 @@
 ## Evolution of Virtual Worlds.
-[Source]([Virtual Worlds!](https://cs.stanford.edu/people/eroberts/cs201/projects/2007-08/virtual-worlds/history.html))
+[Source](https://cs.stanford.edu/people/eroberts/cs201/projects/2007-08/virtual-worlds/history.html)
 **Early Foundations (1970s-1980s):**  
 Text-based virtual worlds like MUD (Multi-User Dungeon) emerged in 1978, pioneering multiplayer online interaction. Players navigated text descriptions of environments and interacted through written commands, laying the groundwork for future virtual spaces. These early worlds were the first to bring together multiple users in an online space, offering simple forms of social interaction and exploration.
 

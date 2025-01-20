@@ -22,6 +22,7 @@
 <span style="float: right;">06</span>
 ## [[Limitations on 2D Learning Environments.]]
 ## [[Evolution of Virtual Worlds.]]
+## [[How do AI and AR work together, and what are their practical applications.|How do AI and AR work together, and what are their practical applications?]]
 ## [[What is metaverse. Explain the characteristics and components of the metaverse.|What is metaverse? Explain the characteristics and components of the metaverse.]]
 
 ---
