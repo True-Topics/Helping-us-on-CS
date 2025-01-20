@@ -1,3 +1,12 @@
+In reinforcement learning, policy evaluation refers to estimating the value function for a given policy. The value function provides an estimate of the expected return when starting from a given state and following the policy. There are several methods for policy evaluation, which include:
 
-> [!failure] Oh no!
-> We couldn't find any answers to this question. Please submit one on GitHub.
+- Monte Carlo Methods: These methods evaluate a policy by averaging the returns obtained from multiple episodes (or trajectories) of interaction with the environment. The main advantage of Monte Carlo methods is that they do not require knowledge of the environment’s dynamics, only sampled experience. They compute the value of a state by taking the average of the discounted returns observed following that state under the current policy.
+
+- Temporal Difference (TD) Learning: - Temporal Difference learning methods combine ideas from Monte Carlo and Dynamic Programming. In TD learning, the value function is updated after each step based on the observed rewards and the estimate of the value of the next state. **TD(0)** is a common form, where updates happen after each time step by adjusting the value of the current state toward the estimated value of the next state. The TD methods can be seen as a combination of Monte Carlo methods and Dynamic Programming.
+
+- Dynamic Programming: Dynamic programming methods, such as **policy iteration** and **value iteration**, use the environment's model (i.e., knowledge of state transitions and rewards) to iteratively update the value function. Policy iteration involves evaluating the current policy, improving it, and repeating the process, while value iteration combines both evaluation and improvement steps in a single update.
+
+- Function Approximation (used with the above methods): In cases where the state space is too large to represent explicitly (e.g., continuous or large state spaces), **function approximation** methods are used. These methods approximate the value function or action-value function using parameterized models like linear regression, neural networks, or decision trees, allowing for generalization across states. This can be applied to methods like TD learning or Monte Carlo methods to estimate values in large environments.
+
+#### Sources
+- [Reinforcement Learning, Part 2: Policy Evaluation and Improvement | by Vyacheslav Efimov | Towards Data Science](https://towardsdatascience.com/reinforcement-learning-part-2-policy-evaluation-and-improvement-59ec85d03b3a)
