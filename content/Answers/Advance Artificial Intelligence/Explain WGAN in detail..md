@@ -45,8 +45,11 @@ The Wasserstein distance is a metric used to measure the distance between two pr
 $$
 W(Pr,Pg)=inf⁡γ∈Π(Pr,Pg)E(x,y)∼γ[∥x−y∥]W(P_r, P_g) = \inf_{\gamma \in \Pi(P_r, P_g)} \mathbb{E}_{(x,y) \sim \gamma} \left[\|x - y\|\right]
 $$
-where$$ Π(Pr,Pg)\Pi(P_r, P_g) denotes the set of all joint distributions with marginals PrP_r and PgP_g.
+where
+$$ 
+Π(Pr,Pg)\Pi(P_r, P_g) denotes the set of all joint distributions with marginals PrP_r and PgP_g.
 $$
+
 ---
 
 ### 4. What is the Kantorovich-Rubinstein Duality and its role in WGAN?
