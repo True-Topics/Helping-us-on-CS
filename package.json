@@ -60,7 +60,7 @@
     "mdast-util-to-hast": "^13.2.0",
     "mdast-util-to-string": "^4.0.0",
     "micromorph": "^0.4.5",
-    "pixi.js": "^8.7.3",
+    "pixi.js": "^8.6.6",
     "preact": "^10.25.4",
     "preact-render-to-string": "^6.5.13",
     "pretty-bytes": "^6.1.1",
@@ -87,10 +87,14 @@
     "serve-handler": "^6.1.6",
     "sharp": "^0.33.5",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "shiki": "^2.3.2",
 =======
     "shiki": "^1.27.2",
 >>>>>>> parent of 47bdc0c4 (Merge pull request #2 from True-Topics/dependabot/npm_and_yarn/production-dependencies-0227260459)
+=======
+    "shiki": "^2.0.3",
+>>>>>>> parent of 789facb7 (Merge pull request #4 from True-Topics/dependabot/npm_and_yarn/production-dependencies-9a6fc5dce0)
     "source-map-support": "^0.5.21",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
@@ -106,10 +110,14 @@
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",
+<<<<<<< HEAD
     "@types/node": "^22.13.1",
+=======
+    "@types/node": "^22.10.7",
+>>>>>>> parent of 789facb7 (Merge pull request #4 from True-Topics/dependabot/npm_and_yarn/production-dependencies-9a6fc5dce0)
     "@types/pretty-time": "^1.1.5",
     "@types/source-map-support": "^0.5.10",
-    "@types/ws": "^8.5.14",
+    "@types/ws": "^8.5.13",
     "@types/yargs": "^17.0.33",
     "esbuild": "^0.25.0",
     "prettier": "^3.5.0",
