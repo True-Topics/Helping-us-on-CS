@@ -1,5 +1,3 @@
-
-[Gaussian Mixture Models Explained | by Oscar Contreras Carrasco | Towards Data Science](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95)
 Imagine you're trying to model the heights of people in a room, but there are distinct groups - children, teenagers, and adults. A single bell curve (Gaussian distribution) wouldn't capture this well, but three overlapping bell curves could represent each group perfectly. This is exactly what a GMM does - it combines multiple Gaussian distributions to model complex data patterns. 
 
 Gaussian Mixture models use multiple Gaussian distribution to predict how likely each data point belongs to a particular group. It does not hardly describe that a data point belongs to cluster 1 like k-means. 
@@ -65,3 +63,4 @@ Limitations:
 
 Resources
 - https://www.youtube.com/watch?v=wT2yLNUfyoM&t=30s
+- [Gaussian Mixture Models Explained | by Oscar Contreras Carrasco | Towards Data Science](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95)
