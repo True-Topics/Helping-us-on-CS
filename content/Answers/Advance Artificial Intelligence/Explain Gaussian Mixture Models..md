@@ -68,18 +68,42 @@ Resources
 ## Questions on GMM
 ### 1. **What is a Gaussian Mixture Model (GMM)?**
 A Gaussian Mixture Model is a probabilistic model that represents data as a combination of multiple Gaussian (normal) distributions. It assumes that each data point is generated from one of several Gaussian components, each with its own mean, covariance, and weight (mixing coefficient). GMMs are used for tasks like clustering, density estimation, and unsupervised learning. The model is formally defined as:
-\[ p(\mathbf{x}) = \sum_{k=1}^K \pi_k \mathcal{N}(\mathbf{x} | \boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k) \]
-where \( \pi_k \) is the mixing weight (prior probability) of the \( k \)-th component, and \( \mathcal{N} \) denotes a Gaussian distribution.
+$$
+p(\mathbf{x}) = \sum_{k=1}^K \pi_k \mathcal{N}(\mathbf{x} \mid \boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k)
+$$
+
 
 ### 2. **How does the Expectation-Maximization (EM) algorithm work in GMMs?**
-The EM algorithm iteratively estimates GMM parameters in two steps:
-- **E-step (Expectation):** Compute the "responsibility" \( \gamma(z_{nk}) \), the probability that data point \( \mathbf{x}_n \) belongs to component \( k \):
-  \[ \gamma(z_{nk}) = \frac{\pi_k \mathcal{N}(\mathbf{x}_n | \boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k)}{\sum_{j=1}^K \pi_j \mathcal{N}(\mathbf{x}_n | \boldsymbol{\mu}_j, \boldsymbol{\Sigma}_j)} \]
-- **M-step (Maximization):** Update parameters using the responsibilities:
-  - Means: \( \boldsymbol{\mu}_k = \frac{1}{N_k} \sum_{n=1}^N \gamma(z_{nk}) \mathbf{x}_n \)
-  - Covariances: \( \boldsymbol{\Sigma}_k = \frac{1}{N_k} \sum_{n=1}^N \gamma(z_{nk}) (\mathbf{x}_n - \boldsymbol{\mu}_k)(\mathbf{x}_n - \boldsymbol{\mu}_k)^T \)
-  - Mixing coefficients: \( \pi_k = \frac{N_k}{N} \), where \( N_k = \sum_{n=1}^N \gamma(z_{nk}) \)
-The algorithm repeats until convergence (e.g., log-likelihood stabilizes).
+**E-step (Expectation):**  
+Compute the "responsibility" \( \gamma(z_{nk}) \), which is the probability that data point \( \mathbf{x}_n \) belongs to component \( k \):
+
+$$
+\gamma(z_{nk}) = \frac{\pi_k\, \mathcal{N}(\mathbf{x}_n \mid \boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k)}{\sum_{j=1}^K \pi_j\, \mathcal{N}(\mathbf{x}_n \mid \boldsymbol{\mu}_j, \boldsymbol{\Sigma}_j)}
+$$
+
+**M-step (Maximization):**  
+Update the parameters using the responsibilities:
+
+- **Means:**
+
+  $$
+  \boldsymbol{\mu}_k = \frac{1}{N_k} \sum_{n=1}^N \gamma(z_{nk})\, \mathbf{x}_n
+  $$
+
+- **Covariances:**
+
+  $$
+  \boldsymbol{\Sigma}_k = \frac{1}{N_k} \sum_{n=1}^N \gamma(z_{nk})\, (\mathbf{x}_n - \boldsymbol{\mu}_k)(\mathbf{x}_n - \boldsymbol{\mu}_k)^T
+  $$
+
+- **Mixing coefficients:**
+
+  $$
+  \pi_k = \frac{N_k}{N}, \quad \text{where} \quad N_k = \sum_{n=1}^N \gamma(z_{nk})
+  $$
+
+The algorithm repeats these steps until convergence (e.g., when the log-likelihood stabilizes).
+
 
 ### 3. **What are the advantages of GMMs over K-means?**
 - **Soft clustering:** GMMs provide probabilistic assignments (responsibilities), while K-means uses hard assignments.
