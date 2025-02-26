@@ -1,5 +1,5 @@
 # Helping us in Computer Science
-### Notes : [https://true-topics.github.io/Helping-us-on-CS/](https://true-topics.github.io/Helping-us-on-CS/)
+### Notes : [https://true-topics.github.io/Helping-us-on-CS/](https://true-topics.github.io/true-topics)
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
